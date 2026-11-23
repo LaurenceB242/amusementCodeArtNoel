@@ -1,14 +1,6 @@
 // ===== RÉGLAGES =====
 const AUDIO_FILE = 'last-christmas.mp3';
 
-// Tes paroles : remplace les textes et ajuste les temps (en secondes)
-const lyrics = [
-  { time: 10.0, text: "ta première ligne" },
-  { time: 14.0, text: "ta deuxième ligne" },
-  { time: 18.0, text: "ta troisième ligne" },
-  // ...
-];
-
 // ===== VARIABLES =====
 let audio;
 let audioCtx, analyser, freqData;
