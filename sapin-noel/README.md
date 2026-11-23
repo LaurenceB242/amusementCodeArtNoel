@@ -29,9 +29,10 @@ Dans `sketch.js`, modifiez le tableau `lyrics` au début du fichier :
 
 ```js
 const lyrics = [
-  { time: 10.0, text: "Première ligne" },
-  { time: 14.0, text: "Deuxième ligne" },
-  { time: 18.0, text: "Troisième ligne" },
+  { time: 10.0, text: "ta première ligne" },
+  { time: 14.0, text: "ta deuxième ligne" },
+  { time: 18.0, text: "ta troisième ligne" },
+  // Ajoutez les autres lignes ici
 ];
 ```
 
@@ -40,7 +41,7 @@ Chaque entrée contient :
 - `time` : le moment de début de la ligne, en secondes depuis le début de la musique ;
 - `text` : le texte à afficher.
 
-Ajoutez une entrée par ligne, dans l'ordre chronologique. La ligne reste affichée jusqu'à ce qu'une autre entrée commence. Avant la première entrée, aucune parole n'est affichée. Les exemples « ta première ligne », etc. sont des textes de remplacement.
+Le tableau ci-dessus reprend les valeurs d'exemple présentes dans le projet : les textes « ta première ligne », etc. sont des espaces réservés, pas les paroles de la chanson. Remplacez-les par les textes que vous souhaitez afficher et ajoutez une entrée par ligne, dans l'ordre chronologique. Chaque ligne reste affichée jusqu'à ce qu'une autre entrée commence. Avant la première entrée, aucune parole n'est affichée.
 
 Pour les synchroniser, démarrez la musique, écoutez le morceau et appuyez sur `L` au début de chaque ligne. Relevez les temps dans la console, puis reportez-les dans le tableau.
 
